@@ -1,0 +1,512 @@
+/*-----COURSE-POPUPS------*/
+.courses-taken_1
+{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  transition: 200ms ease-in-out;
+  border: 1px solid black;
+  border-radius: 10px;
+  z-index: 10;
+  background-color: white;
+  width: 500px;
+  max-width: 80%;
+}
+.courses-taken_1.active
+{
+  transform: translate(-50%, -50%) scale(1);
+
+}
+.courses-taken_1-header{
+  padding: 10px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid black;
+}
+.courses-taken_1-header .title
+{
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+.courses-taken_1-header .close-button
+{
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+.courses-taken_1-body
+{
+  padding: 10px 15px;
+}
+
+.courses-taken_2
+{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  transition: 200ms ease-in-out;
+  border: 1px solid black;
+  border-radius: 10px;
+  z-index: 10;
+  background-color: white;
+  width: 500px;
+  max-width: 80%;
+}
+.courses-taken_2.active
+{
+  transform: translate(-50%, -50%) scale(1);
+
+}
+.courses-taken_2-header{
+  padding: 10px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid black;
+}
+.courses-taken_2-header .title
+{
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+.courses-taken_2-header .close-button
+{
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+.courses-taken_2-body
+{
+  padding: 10px 15px;
+}
+
+.courses-taken_3
+{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  transition: 200ms ease-in-out;
+  border: 1px solid black;
+  border-radius: 10px;
+  z-index: 10;
+  background-color: white;
+  width: 500px;
+  max-width: 80%;
+}
+.courses-taken_3.active
+{
+  transform: translate(-50%, -50%) scale(1);
+
+}
+.courses-taken_3-header{
+  padding: 10px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid black;
+}
+.courses-taken_3-header .title
+{
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+.courses-taken_3-header .close-button
+{
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+.courses-taken_3-body
+{
+  padding: 10px 15px;
+}
+
+.courses-taken_4
+{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  transition: 200ms ease-in-out;
+  border: 1px solid black;
+  border-radius: 10px;
+  z-index: 10;
+  background-color: white;
+  width: 500px;
+  max-width: 80%;
+}
+.courses-taken_4.active
+{
+  transform: translate(-50%, -50%) scale(1);
+
+}
+.courses-taken_4-header{
+  padding: 10px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid black;
+}
+.courses-taken_4-header .title
+{
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+.courses-taken_4-header .close-button
+{
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+.courses-taken_4-body
+{
+  padding: 10px 15px;
+}
+.courses-taken_e
+{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  transition: 200ms ease-in-out;
+  border: 1px solid black;
+  border-radius: 10px;
+  z-index: 10;
+  background-color: white;
+  width: 500px;
+  max-width: 80%;
+}
+.courses-taken_e.active
+{
+  transform: translate(-50%, -50%) scale(1);
+
+}
+.courses-taken_e-header{
+  padding: 10px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid black;
+}
+.courses-taken_e-header .title
+{
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+.courses-taken_e-header .close-button
+{
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+.courses-taken_e-body
+{
+  padding: 10px 15px;
+}
+
+.project_1
+{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  transition: 200ms ease-in-out;
+  border: 1px solid black;
+  border-radius: 10px;
+  z-index: 10;
+  background-color: white;
+  width: 500px;
+  max-width: 80%;
+}
+.project_1.active
+{
+  transform: translate(-50%, -50%) scale(1);
+
+}
+.project_1-header{
+  padding: 10px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid black;
+}
+.project_1-header .title
+{
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+.project_1-header .close-button
+{
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+.project_1-body
+{
+  padding: 10px 15px;
+}
+
+.project_2
+{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  transition: 200ms ease-in-out;
+  border: 1px solid black;
+  border-radius: 10px;
+  z-index: 10;
+  background-color: white;
+  width: 500px;
+  max-width: 80%;
+}
+.project_2.active
+{
+  transform: translate(-50%, -50%) scale(1);
+
+}
+.project_2-header{
+  padding: 10px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid black;
+}
+.project_2-header .title
+{
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+.project_2-header .close-button
+{
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+.project_2-body
+{
+  padding: 10px 15px;
+}
+
+.project_3
+{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  transition: 200ms ease-in-out;
+  border: 1px solid black;
+  border-radius: 10px;
+  z-index: 10;
+  background-color: white;
+  width: 500px;
+  max-width: 80%;
+}
+.project_3.active
+{
+  transform: translate(-50%, -50%) scale(1);
+
+}
+.project_3-header{
+  padding: 10px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid black;
+}
+.project_3-header .title
+{
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+.project_3-header .close-button
+{
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+.project_3-body
+{
+  padding: 10px 15px;
+}
+
+.project_4
+{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  transition: 200ms ease-in-out;
+  border: 1px solid black;
+  border-radius: 10px;
+  z-index: 10;
+  background-color: white;
+  width: 500px;
+  max-width: 80%;
+}
+.project_4.active
+{
+  transform: translate(-50%, -50%) scale(1);
+
+}
+.project_4-header{
+  padding: 10px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid black;
+}
+.project_4-header .title
+{
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+.project_4-header .close-button
+{
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+.project_4-body
+{
+  padding: 10px 15px;
+}
+
+.project_5
+{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  transition: 200ms ease-in-out;
+  border: 1px solid black;
+  border-radius: 10px;
+  z-index: 10;
+  background-color: white;
+  width: 500px;
+  max-width: 80%;
+}
+.project_5.active
+{
+  transform: translate(-50%, -50%) scale(1);
+
+}
+.project_5-header{
+  padding: 10px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid black;
+}
+.project_5-header .title
+{
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+.project_5-header .close-button
+{
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+.project_6-body
+{
+  padding: 10px 15px;
+}
+
+.project_6
+{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  transition: 200ms ease-in-out;
+  border: 1px solid black;
+  border-radius: 10px;
+  z-index: 10;
+  background-color: white;
+  width: 500px;
+  max-width: 80%;
+}
+.project_6.active
+{
+  transform: translate(-50%, -50%) scale(1);
+
+}
+.project_6-header{
+  padding: 10px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid black;
+}
+.project_6-header .title
+{
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+.project_6-header .close-button
+{
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+.project_6-body
+{
+  padding: 10px 15px;
+}
+
+#overlay
+{
+  position: fixed;
+  opacity: 0;
+  transition: 200ms ease-in-out;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  pointer-events: none;
+}
+#overlay.active
+{
+  opacity: 1;
+  pointer-events: all;
+}
